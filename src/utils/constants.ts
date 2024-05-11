@@ -1,5 +1,5 @@
 //IOTEX RPC
-export const IOTEX_RPC = "https://babel-api.testnet.iotex.io";
+export const IOTEX_RPC = "https://gnosis-mainnet.public.blastapi.io";
 
 // DIA ABI AND ADDRESS HOSTED ON IOTEX BLOCKCHAIN
 export const DIA_ADDRESS = "0x107382d7ba73A2710CfAC4651DfcF35B4CE057b6";
@@ -147,9 +147,8 @@ export const DIA_ABI = [
     type: "function",
   },
 ];
-// PROTOCOL_ABI AND PROTOCOL_ADDRESS HOSTED ON IOTEX BLOCKCHAIN
-export const PROTOCOL_METERING_ADDRESS =
-  "0x6f7e87f461bf1BEa6Aa70b519de17bD597fcF573";
+// PROTOCOL_ABI AND PROTOCOL_ADDRESS HOSTED ON GNOSIS BLOCKCHAIN
+export const PROTOCOL_METERING_ADDRESS = "0x2b3997D82C836bd33C89e20fBaEF96CA99F1B24A";
 export const PROTOCOL_METERING_ABI = [
   { inputs: [], stateMutability: "nonpayable", type: "constructor" },
   { inputs: [], name: "BadStrategy", type: "error" },
@@ -563,8 +562,8 @@ export const PROTOCOL_METERING_ABI = [
     type: "function",
   },
 ];
-// M3TER_ABI AND M3TER_ADDRESS HOSTED ON IOTEX BLOCKCHAIN
-export const M3TER_ADDRESS = "0x27d71b67F23D6F7c34e1f9bea85aBEBA40a6C7E5";
+// M3TER_ABI AND M3TER_ADDRESS HOSTED ON GNOSIS BLOCKCHAIN
+export const M3TER_ADDRESS = "0x39fb420Bd583cCC8Afd1A1eAce2907fe300ABD02";
 export const M3TER_ABI = [
   { inputs: [], stateMutability: "nonpayable", type: "constructor" },
   { inputs: [], name: "NonexistentM3ter", type: "error" },

@@ -11,7 +11,7 @@ import {
   localWallet,
 } from "@thirdweb-dev/react";
 
-import { IotexNetworkTestnet, Goerli } from "@thirdweb-dev/chains";
+import { IotexNetworkTestnet, Gnosis } from "@thirdweb-dev/chains";
 
 interface ProvidersProps {
   children: ReactNode;
@@ -20,7 +20,7 @@ interface ProvidersProps {
 const Providers: React.FC<ProvidersProps> = ({ children }) => {
   return (
     <ThirdwebProvider
-      activeChain={IotexNetworkTestnet}
+      activeChain={Gnosis}
       clientId="f9e23b13e2e92ee6bfd0f9c9120eae2e"
       supportedWallets={[
         localWallet(),
@@ -31,7 +31,7 @@ const Providers: React.FC<ProvidersProps> = ({ children }) => {
         }),
         safeWallet(),
       ]}
-      supportedChains={[IotexNetworkTestnet]}
+      supportedChains={[Gnosis]}
     >
       <ToastContainer />
       {children}
